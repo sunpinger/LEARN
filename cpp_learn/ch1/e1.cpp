@@ -2,13 +2,14 @@
 #include <string>
 using namespace std;
 
+int max(int,int);
+
 int main()
 {
     string user_name;
-    cout << "Please enter youe first name: ";
+    cout << "Please enter your first name: ";
     cin >> user_name;
-    cout << '\n'
-         << "Hello, "
+    cout << "Hello, "
          << user_name
          << " ... and goodbye!\n";
 
@@ -17,5 +18,17 @@ int main()
     // int cin = 9;
     // cout << cin;
 
+    cout << max(100000,5);
+
     return 0;
+}
+
+int max(int a, int b){
+    int result;
+    if (a > b)
+        result = a;
+    else
+        result = b;
+
+    return result;
 }

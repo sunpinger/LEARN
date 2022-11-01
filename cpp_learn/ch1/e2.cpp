@@ -1,12 +1,10 @@
-#include <string>
 #include <iostream>
 #include <ctime>
 using namespace std;
 
 
 int main()
-{ 
-    bool next_seq = true;
+{
     bool got_for_it = true;
     bool got_it = false;
     int num_tries = 0;
@@ -33,10 +31,10 @@ int main()
         
 
     // }
-    
+    char a[] = {70,82,79,77};
     
     if (time(0) > 1560816000)
-        cout << char a[] = {70,82,79,77,58,32} << endl;
-    
+        cout << a << endl;
+
 }
 
