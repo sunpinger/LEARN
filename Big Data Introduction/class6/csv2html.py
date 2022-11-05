@@ -13,22 +13,24 @@ seg1 = '''
 seg2 = "</tr>\n"
 seg3 = "</table>\n</body>\n</html>"
 
+
 def fill_data(locls):
-	seg = '\
+    seg = '\
 	<tr><td align="center">{}</td>\
 	<td align="center">{}</td>\
 	<td align="center">{}</td>\
 	<td align="center">{}</td></tr>\n'.format(*locls)
-	return seg
+    return seg
 
-fr = open("final_result.csv","r",encoding='utf-8')
+
+fr = open("final_result.csv", "r", encoding='utf-8')
 ls = []
 for line in fr:
-	line = line.replace("\n","")
-	ls.append(line.split(","))
+    line = line.replace("\n", "")
+    ls.append(line.split(","))
 fr.close()
 
-fw = open("twenty.html","w",encoding='utf-8')
+fw = open("twenty.html", "w", encoding='utf-8')
 fw.write(seg1)
 fw.write('\
 	<th width="25%">{}</th>\n\
@@ -36,7 +38,7 @@ fw.write('\
 	<th width="25%">{}</th>\n\
 	<th width="25%">{}</th>\n'.format(*ls[0]))
 fw.write(seg2)
-for i in range(1,len(ls)):
-	fw.write(fill_data(ls[i]))
+for i in range(1, len(ls)):
+    fw.write(fill_data(ls[i]))
 fw.write(seg3)
 fw.close()

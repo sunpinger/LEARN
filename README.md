@@ -3,8 +3,10 @@
 ## References
 
 ### Text edit
-+ [Markdown](https://markdown.com.cn/basic-syntax/lists.html)
-+ [Latex-wiki](https://en.wikibooks.org/wiki/LaTeX) or [tug-help](https://www.tug.org/begin.html) or [tcd-help](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/)
++ [Markdown](https://markdown.com.cn/basic-syntax/lists.html): write text, don't care the format.
++ [Latex-wiki](https://en.wikibooks.org/wiki/LaTeX) or [tug-help](https://www.tug.org/begin.html) or [tcd-help](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/): Express mathmatical formula using code and text.
++ [Pandoc](https://pandoc.org/getting-started.html): The swiss-army knife of converting file format.
++ [Marmaid](https://mermaid-js.github.io/mermaid/#/flowchart): Mermaid lets you create diagrams and visualizations using text and code.
 
 ### Python
 [Python](https://docs.python.org/3/index.html)
@@ -25,8 +27,6 @@
 
 **Machine learning**
 + [sklearn](https://scikit-learn.org/stable/index.html) or [sklearn-cn](https://www.sklearncn.cn/)
-
-
 
 
 ## Learning note

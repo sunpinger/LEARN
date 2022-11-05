@@ -1,0 +1,1 @@
+extern const int max_i = 5;

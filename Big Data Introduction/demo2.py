@@ -1,25 +1,24 @@
-"""
-text_file = open('人工智能与python程序设计.txt', 'rt',encoding='utf-8')
-print(text_file.readline(),end='')
-print(text_file.readline(),end='')
-print(text_file.readline())
+# text_file = open('人工智能与python程序设计.txt', 'rt',encoding='utf-8')
+# print(text_file.readline(),end='')
+# print(text_file.readline(),end='')
+# print(text_file.readline())
 
-binary_file = open('人工智能与Python程序设计.txt', 'rb')
-print(binary_file.readline())
+# binary_file = open('人工智能与Python程序设计.txt', 'rb')
+# print(binary_file.readline())
 
-class Student(object):
-	\"""docstring for Student\"""
-	def __init__(self, name, score):
-		self.name = name
-		self.score = score
+# class Student(object):
+# 	"""docstring for Student"""
+# 	def __init__(self, name, score):
+# 		self.name = name
+# 		self.score = score
 
-	def print_score(self):
-		print('%s: %d'%(self.name,self.score))
+# 	def print_score(self):
+# 		print('%s: %d'%(self.name,self.score))
 
-Michael= Student('Michael', 98)
-print(Michael.name)
-Michael.print_score()
-"""
+# Michael= Student('Michael', 98)
+# print(Michael.name)
+# Michael.print_score()
+
 
 # import spell
 
@@ -36,6 +35,12 @@ Michael.print_score()
 
 # print(type(b) == list)
 
-print('\u2026\u2027')
+# print('\u2026\u2027')
 
+text = "ALVIN"
+
+print(f"{text}")
+print(f"{text:#>20}")
+print(f"{text:#<20}")
+print(f"{text:-^20}")
 

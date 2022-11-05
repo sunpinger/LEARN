@@ -1,0 +1,52 @@
+{9,7,18,213,1}
+
+about to call swap! ix: 0 jx: 1	 swapping: 9 with 7
+
+7,9,18,213,1
+
+about to call swap! ix: 0 jx: 4	 swapping: 7 with 1
+
+1,9,18,213,7
+
+about to call swap! ix: 1 jx: 4	 swapping: 9 with 7
+1,7,18,213,9
+about to call swap! ix: 2 jx: 4	 swapping: 18 with 9
+about to call swap! ix: 3 jx: 4	 swapping: 213 with 18
+
+
+about to call swap! ix: 0 jx: 1	 swapping: 9 with 7
+about to call swap! ix: 0 jx: 4	 swapping: 7 with 1
+about to call swap! ix: 1 jx: 4	 swapping: 9 with 7
+about to call swap! ix: 2 jx: 4	 swapping: 18 with 9
+about to call swap! ix: 3 jx: 4	 swapping: 213 with 18
+
+
+about to call swap! ix: 0 jx: 0	 swapping: 9 with 9
+about to call swap! ix: 0 jx: 3	 swapping: 9 with 213
+about to call swap! ix: 1 jx: 2	 swapping: 7 with 18
+about to call swap! ix: 1 jx: 3	 swapping: 18 with 9
+about to call swap! ix: 2 jx: 3	 swapping: 7 with 18
+about to call swap! ix: 3 jx: 3	 swapping: 7 with 7
+about to call swap! ix: 0 jx: 0	 swapping: 9 with 9
+about to call swap! ix: 0 jx: 3	 swapping: 9 with 213
+about to call swap! ix: 0 jx: 4	 swapping: 213 with 1
+about to call swap! ix: 1 jx: 2	 swapping: 7 with 18
+about to call swap! ix: 1 jx: 4	 swapping: 18 with 213
+about to call swap! ix: 2 jx: 4	 swapping: 7 with 18
+about to call swap! ix: 3 jx: 3	 swapping: 9 with 9
+about to call swap! ix: 3 jx: 4	 swapping: 9 with 7
+about to call swap! ix: 4 jx: 4	 swapping: 9 with 9
+about to call swap! ix: 0 jx: 0	 swapping: 9 with 9
+about to call swap! ix: 0 jx: 3	 swapping: 7 with 213
+about to call swap! ix: 0 jx: 4	 swapping: 7 with 213
+about to call swap! ix: 1 jx: 2	 swapping: 9 with 18
+about to call swap! ix: 1 jx: 3	 swapping: 9 with 18
+about to call swap! ix: 2 jx: 2	 swapping: 1 with 1
+about to call swap! ix: 0 jx: 0	 swapping: 9 with 9
+about to call swap! ix: 0 jx: 3	 swapping: 7 with 213
+about to call swap! ix: 1 jx: 2	 swapping: 9 with 18
+about to call swap! ix: 0 jx: 1	 swapping: 9 with 7
+about to call swap! ix: 0 jx: 4	 swapping: 7 with 1
+about to call swap! ix: 1 jx: 4	 swapping: 9 with 7
+about to call swap! ix: 2 jx: 4	 swapping: 18 with 9
+about to call swap! ix: 3 jx: 4	 swapping: 213 with 18

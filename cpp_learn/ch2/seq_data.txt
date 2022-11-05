@@ -1,0 +1,54 @@
+alvin 99 100
+alvin 99 100
+alvin 99 100
+alvin 99 100
+
+
+// ofstream outfile("seq_data.txt",ios_base::app);
+
+
+
+	// // string user_name = "alvin";
+	// // int num_tries = 99;
+	// // int num_right = 100;
+
+	// // if (! outfile)
+	// // 	cerr << "Oops";
+	// // else
+	// // 	outfile << user_name << ' '
+	// // 			<< num_tries << ' '
+	// // 			<< num_right << endl;
+
+	// ifstream infile("seq_data.txt");
+
+	// long long int max_int = numeric_limits<long  long int>::max();
+	// double min_double = numeric_limits<float>::min();
+
+	// cout << max_int << endl;
+	// cout << min_double << endl;
+
+
+	// ifstream infile("seq_data.txt");
+
+	// if (! infile)
+	// 	cerr << "Oops!";
+	// else{
+	// 	string name;
+	// 	int score;
+	// 	int tries;
+
+	// 	while (infile >> name)
+	// 	{
+	// 		/* code */
+	// 		infile >> score >> tries;
+	// 		if( name == "alvin"){
+	// 			cout << name << '\t' 
+	// 				 << score << '\t'  
+	// 				 << tries << '\t'  
+	// 				 << endl;
+	// 		}
+	// 	}
+	// }
+
+
+    	fstream iofile("seq_data.txt",ios_base::in|ios_base::app);
