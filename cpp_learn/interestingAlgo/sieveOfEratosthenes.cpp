@@ -1,8 +1,7 @@
 //
 // Created by alvin on 2022/12/7.
 //
-
-//#include <cstdio>
+#include <cstdio>
 #include <cstdlib>
 #include <algorithm>
 #include <malloc.h>
@@ -11,7 +10,7 @@ using namespace std;
 #define ERROR -1
 #define TRUE 1
 #define FALSE 0
-#define N 1000
+#define N 100
 typedef int Status;
 
 int main()
